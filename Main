@@ -1,4 +1,4 @@
-// by Junus Safsouf 9/15/21                                bigi_island.c                                    Modified
+// by Junus Safsouf 9/15/21
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

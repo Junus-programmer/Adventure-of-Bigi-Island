@@ -49,7 +49,7 @@ int main() {
         printf("\nYou maked 10 damage +5 score");
         score += 5;
     }
-    sleep(3)
+    sleep(3);
     printf("\nThe guard hitted you -10 health");
     health -= 10;
     

@@ -1,0 +1,74 @@
+// by Junus Safsouf 9/15/21                                bigi_island.c                                    Modified
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main() {
+    int score = 0;
+    int health = 50;
+    int level = 1;
+    printf("WELCOME TO THE ADVENTURE OF BIGI ISLAND PLAYER");
+    printf("\nchoose a thing to take a long");
+    printf("\na:sword b:axe\n");
+
+    char weapon1 = getchar();
+
+    if(weapon1 == 'a'){
+        printf("\nyou choosed sword");
+    }
+    else if(weapon1 == 'b'){
+        printf("\nyou choosed axe");
+    }
+    score += 1;
+
+    printf("\nNOW ARE YOU READY FOR THE ADVENTURE");
+    printf("\n###################################");
+    sleep(5);
+    printf("\n-VILLIGER-");
+    printf("\nYou must help us.\nThe bad king suppress us.");
+    printf("\nHe steeled our meal and our animals and our childrens.");
+    printf("\nHe's in the big castle on top of the mountain.");
+    sleep(5);
+    printf("\nCHAPTER ONE THE ANIMAL THIEF");
+    sleep(5);
+
+    printf("\n-YOU-");
+    printf("\nFirst I search for the animals");
+    printf("\n                               ");
+    sleep(10);
+    printf("\nA guard saw you fight him!");
+    printf("\n-FIGHT-\nGuard Level 1, health:20");
+    sleep(5);
+    if(weapon1 == 'a'){
+        printf("\nYou hitted him with the sword.");
+        printf("\nYou maked 10 damage +5 score");
+        score += 5;
+    }
+    else if(weapon1 == 'b'){
+        printf("\nYou hitted him with the axe.");
+        printf("\nYou maked 10 damage +5 score");
+        score += 5;
+    }
+    printf("\nThe guard hitted you -10 health");
+    health -= 10;
+    
+    if(weapon1 == 'a'){
+        printf("\nYou killed him with the sword.");
+        printf("\nYou killed him +10 score");
+        score += 10;
+    }
+    else if(weapon1 == 'b'){
+        printf("\nYou killed him with the axe.");
+        printf("\nYou killed him +10 score");
+        score += 10;
+    }
+    sleep(5);
+    printf("\n##################################################");
+    printf("\nWow you killed him good work +1 level");
+    printf("\nYou got more health and more power to make damage");
+    level += 1;
+    health += 60;
+    printf("\nLets Go and search forther!\n");
+
+    return 0;
+}

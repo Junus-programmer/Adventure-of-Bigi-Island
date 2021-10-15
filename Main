@@ -23,22 +23,22 @@ int main() {
 
     printf("\nNOW ARE YOU READY FOR THE ADVENTURE");
     printf("\n###################################");
-    sleep(5);
+    sleep(3);
     printf("\n-VILLIGER-");
     printf("\nYou must help us.\nThe bad king suppress us.");
     printf("\nHe steeled our meal and our animals and our childrens.");
     printf("\nHe's in the big castle on top of the mountain.");
-    sleep(5);
+    sleep(3);
     printf("\nCHAPTER ONE THE ANIMAL THIEF");
-    sleep(5);
+    sleep(3);
 
     printf("\n-YOU-");
     printf("\nFirst I search for the animals");
     printf("\n                               ");
-    sleep(10);
+    sleep(8);
     printf("\nA guard saw you fight him!");
     printf("\n-FIGHT-\nGuard Level 1, health:20");
-    sleep(5);
+    sleep(3);
     if(weapon1 == 'a'){
         printf("\nYou hitted him with the sword.");
         printf("\nYou maked 10 damage +5 score");
@@ -49,6 +49,7 @@ int main() {
         printf("\nYou maked 10 damage +5 score");
         score += 5;
     }
+    sleep(3)
     printf("\nThe guard hitted you -10 health");
     health -= 10;
     
@@ -62,7 +63,7 @@ int main() {
         printf("\nYou killed him +10 score");
         score += 10;
     }
-    sleep(5);
+    sleep(3);
     printf("\n##################################################");
     printf("\nWow you killed him good work +1 level");
     printf("\nYou got more health and more power to make damage");

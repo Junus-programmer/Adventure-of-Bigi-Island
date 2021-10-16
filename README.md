@@ -35,3 +35,6 @@ then the game starts
 
 
 
+
+
+Windows exe file in the directory

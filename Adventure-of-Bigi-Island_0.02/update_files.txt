@@ -1,2 +1,2 @@
-Maybe works on windows
+Cross Plattform Support
 Chapter 1 finished

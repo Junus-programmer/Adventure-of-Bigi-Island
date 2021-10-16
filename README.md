@@ -14,11 +14,6 @@ Junus Safsouf 2021
 
 
 
-JUST WORKS ON LINUX!!!
-
-
-
-
 How to compile(linux terminal):
 
 
@@ -37,3 +32,6 @@ clang Main.c
 
 
 then the game starts
+
+
+

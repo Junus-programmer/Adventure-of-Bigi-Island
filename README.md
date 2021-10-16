@@ -1,4 +1,4 @@
-# Adventure-of-Bigi-Island-Linux
+# Adventure-of-Bigi-Island
 
 A text adventure made by one person
 

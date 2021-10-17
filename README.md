@@ -14,7 +14,7 @@ Junus Safsouf 2021
 
 
 
-How to compile(linux terminal):
+How to compile(linux terminal)(make sure all librarys are installed):
 
 
 
